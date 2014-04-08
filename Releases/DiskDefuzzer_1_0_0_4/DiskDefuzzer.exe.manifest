@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="DiskDefuzzer.exe" version="1.0.0.4" publicKeyToken="d2bf19d1759926ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="dbs.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DiskDefuzzer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DiskDefuzzer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiskDefuzzer.exe" size="114688">
+      <assemblyIdentity name="DiskDefuzzer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zN5K6nvpq8WZLsI6BBrw7iEc8ig=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.VBProgressDialog.dll" size="5120">
+      <assemblyIdentity name="Interop.VBProgressDialog" version="1.1.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3LfQw/OTSm3pjqu8tlEohBeUUJg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinProgressDialog.dll" size="9216">
+      <assemblyIdentity name="WinProgressDialog" version="1.0.1845.20729" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VfqpBDYlUL5ABoi/z8on+Q5G+cQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dbs.ico" size="2862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XC9gvdrDaNk/MmZQZSqFtZP5xF0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DiskDefuzzer.AccessMDBTemplate" size="442368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bbXv28fAUbm0PxPwYznRGazo5Fc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=REDMOND\shitals" issuerKeyHash="fa592d43cc086bf7e7eb50947e88e994dd89d052" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>n7udKjHLcaqpLXKKE86kj6vwMiE=</DigestValue></Reference></SignedInfo><SignatureValue>1MidkG5HHM40B3bxLeqXvQBl+wB1UJwvIp5Entqe2dwvpg5VAO0vLUJU6myKVT325xDhy0/FA9a+rtA/uDe0EsF6kO1e65NH8KISk/CvOBKvsdh6C9+X5K4xNdv+xU5W6J53aNvB/YIqALb7KHRAOduyeGtKQ3Rb5PaKgdyMn9Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+vTS249YetnyquY7X5jYmmtgZ+iTN1tAwnrBOEXzofajjdvqGCwxVb5TT4ov8e/cFMBtfRo/9A77xEMCVfCOHj1J4ZdhRpYLjFfOk/jN+ERZUlXK4+zSAr/5ZS0PnJgxZtuH3/lODV2X6penr3Rn4OQNNzF8ilVukUiLvtoBqj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2132f0ab8fa4ce138a722da9aa71cb312a9dbb9f" Description="" Url=""><as:assemblyIdentity name="DiskDefuzzer.exe" version="1.0.0.4" publicKeyToken="d2bf19d1759926ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REDMOND\shitals</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lv5RySUo066Zg7p0Q/gFuBVGpUc=</DigestValue></Reference></SignedInfo><SignatureValue>+BhrLSuVO/mLWUPtxCdJDybxR2KA+6F11PQJs3YATvVwmC+g5RodKrBums+kWstptN6+LsbvgI49HwXQ3Rv34eDEtnhThcYQDE9aSv2qF0hYdf99zX1IM9EtBXNy5uwsRLsF1tXLTEd5zcG0cpXlyuolw7ym9aZDO1rJ+9aMyrY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+vTS249YetnyquY7X5jYmmtgZ+iTN1tAwnrBOEXzofajjdvqGCwxVb5TT4ov8e/cFMBtfRo/9A77xEMCVfCOHj1J4ZdhRpYLjFfOk/jN+ERZUlXK4+zSAr/5ZS0PnJgxZtuH3/lODV2X6penr3Rn4OQNNzF8ilVukUiLvtoBqj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATqgAwIBAgIQIl+uZHNQ/4NIu8Ux8ZledjAJBgUrDgMCHQUAMCkxJzAlBgNVBAMeHgBSAEUARABNAE8ATgBEAFwAcwBoAGkAdABhAGwAczAeFw0wNjA2MTMyMzExNDhaFw0wNzA2MTQwNTExNDhaMCkxJzAlBgNVBAMeHgBSAEUARABNAE8ATgBEAFwAcwBoAGkAdABhAGwAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+vTS249YetnyquY7X5jYmmtgZ+iTN1tAwnrBOEXzofajjdvqGCwxVb5TT4ov8e/cFMBtfRo/9A77xEMCVfCOHj1J4ZdhRpYLjFfOk/jN+ERZUlXK4+zSAr/5ZS0PnJgxZtuH3/lODV2X6penr3Rn4OQNNzF8ilVukUiLvtoBqj0CAwEAATAJBgUrDgMCHQUAA4GBAL2P4XfK8XIWDxt1ThDjpJjT2naCkmc/I0V6yZoqKxrYm88g8aNtvM/iLxeyVam0C++62hsa0YTFno8a+YPOl0RzDSua9ighKiuklQQkhcg5lrHqjiihJK+3EM0pyHLwR1L6Kxtubi4PTboT9b5YTbfnKuyKPBKuMCmBo62ebh9B</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

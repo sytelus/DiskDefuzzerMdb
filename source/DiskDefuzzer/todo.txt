@@ -1,0 +1,7 @@
+-remove "finishing" from progress message
+-add confirm on progress cancel
+-add 3rd line for since time in progress
+-handle GetDirectories and GetFiles Errors
+-update 20000 records at a time in db
+-"Getting list of files" perf enhancements, show file nums in progress, get 50000 rows at a time
+-do not recreate 10K byte array, reuse it
